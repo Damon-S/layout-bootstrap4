@@ -19,4 +19,11 @@ $(function () {
             $('.portfolio__filter > div > div[filter=' + filter + ']').show(300);
         }
     });
+    $('.slider-team').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+    });
+
 });

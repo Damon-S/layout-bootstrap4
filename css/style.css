@@ -347,3 +347,54 @@ div[filter]:hover .portfolio__item-text {
     color: #ffffff;
     border: 2px solid #00897b;
 }
+
+.team {
+    padding: 120px 0 125px;
+}
+
+.team__title {
+    margin-bottom: 35px;
+}
+
+.team__text {
+    margin-bottom: 130px;
+}
+
+.team__img {
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.team__name {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.team__position {
+    margin-bottom: 30px;
+}
+
+.team__social-links {
+    display: flex;
+}
+
+.team__social-links i:nth-child(1) {
+    color: #f0f1f1;
+}
+
+.team__social-links i:nth-child(2) {
+    color: #00897b;
+}
+
+.team__social-links a i {
+    transition: 0.5s;
+}
+
+.team__social-links a:hover i:nth-child(1) {
+    color: #3949ab;
+}
+
+.team__social-links a:hover i:nth-child(2) {
+    color: #fff;
+}
