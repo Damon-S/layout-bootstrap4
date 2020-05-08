@@ -1,0 +1,256 @@
+@import "fonts.css";
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #212121;
+    text-align: center;
+}
+
+ul,
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    padding: 20px 0;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__link {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: #888888;
+}
+
+.header__search {
+    cursor: pointer;
+}
+
+.header {
+    padding: 180px 0;
+    text-align: center;
+    color: #ffffff;
+    background: url('../images/header.jpg') no-repeat 0 100%;
+    background-size: cover;
+}
+
+.header__title {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+
+.header__text {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #ffffff;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+    text-transform: uppercase;
+}
+
+.header__btn {}
+
+
+.header__btn:hover {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.about {
+    padding: 120px 0 125px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+
+.about__title {
+    margin-bottom: 35px;
+}
+
+.about__text {
+    margin-bottom: 120px;
+}
+
+.about__item-img {}
+
+.about__item-title {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+}
+
+.about__item-text {}
+
+.services {
+    padding: 165px 0 125px;
+    background: #e4fdf9;
+    text-align: center;
+}
+
+.services__title {
+    margin-bottom: 35px;
+}
+
+.services__text {
+    margin-bottom: 110px;
+}
+
+.services__card {
+    background: #fff;
+    padding: 59px 43px 48px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+}
+
+.services__card:hover {
+    background: #00897b;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.services__icon {
+    font-size: 58px;
+    color: #000000;
+    margin-bottom: 37px;
+    transition: all 0.5s;
+}
+
+.services__card:hover .services__icon {
+    color: #ffffff;
+}
+
+.services__item-title {
+    font-family: 'Open Sans Semibold';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.services__item-text {
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.services__btn {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #212121;
+    border: 2px solid #212121;
+    background: transparent;
+    padding: 16px 11px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.services__card:hover .services__btn {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: #00897b;
+}
+
+.portfolio {
+    padding: 120px 0 135px;
+}
+
+.portfolio__title {
+    margin-bottom: 35px;
+}
+
+.portfolio__text {
+    margin-bottom: 115px;
+}
+
+.portfolio__btn {
+    font-family: 'Open Sans Semibold';
+    background: transparent;
+    color: #212121;
+    margin: 0 10px;
+}
+
+.portfolio__btn:hover,
+.focused {
+    background: #00897b;
+    color: #ffffff;
+}
+
+div[filter]:hover .portfolio__item-img {
+    filter: brightness(50%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.portfolio__item-text {
+    display: none;
+}
+
+div[filter]:hover .portfolio__item-text {
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    top: 40%;
+    left: 0;
+}
+
+.portfolio__buttons,
+.portfolio__filter {
+    margin-bottom: 120px;
+}
+
+.portfolio__item-img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.portfolio__btn-bottom {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 25px 65px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 2px solid #00897b;
+}
+
+.portfolio__btn-bottom:hover {
+    background: transparent;
+    color: #212121;
+    border: 2px solid #00897b;
+}
