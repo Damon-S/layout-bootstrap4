@@ -260,18 +260,90 @@ div[filter]:hover .portfolio__item-text {
     padding: 125px 0;
 }
 
-.portfolio__title {}
+.pricing__title {
+    margin-bottom: 35px;
+}
 
-.portfolio__text {}
+.pricing__text {
+    margin-bottom: 125px;
+}
 
-.pricing__card {}
+.pricing__card {
+    background: #ffffff;
+    padding-bottom: 60px;
+    transition: 0.5s;
+}
 
-.pricing__block-title {}
+.pricing__card:hover {
+    box-shadow: 0px 3px 25px 0px rgba(0, 0, 0, 0.35);
+}
 
-.pricing__block-num {}
+.pricing__card-head {
+    padding: 40px 64px;
+    background: url('../images/pricing-head-img.png') no-repeat 0 0;
+    background-size: cover;
+    color: #ffffff;
+    min-height: 209px;
+}
 
-.pricing__block-list {}
+.pricing__card-title {
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    margin-bottom: 35px;
+}
 
-.pricing__block-item {}
+.pricing__card-num {
+    font-size: 50px;
+    letter-spacing: 2.5px;
+}
 
-.pricing__btn {}
+.pricing__card-num sup {
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    vertical-align: middle;
+}
+
+.pricing__card-num sub {
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    vertical-align: middle;
+}
+
+.pricing__card-body {
+    margin-bottom: 65px;
+}
+
+.pricing__card-list {
+    margin: 0 auto;
+}
+
+.pricing__card-item {
+    border-bottom: 1px solid #bfbfbf;
+    max-width: 175px;
+    margin: 0 auto;
+    padding: 33px 0 13px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    line-height: 1;
+}
+
+.pricing__card-footer {}
+
+.pricing__btn {
+    border: 2px solid #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 20px 25px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pricing__btn:hover {
+    background: #00897b;
+    color: #ffffff;
+    border: 2px solid #00897b;
+}
