@@ -254,3 +254,24 @@ div[filter]:hover .portfolio__item-text {
     color: #212121;
     border: 2px solid #00897b;
 }
+
+.pricing {
+    background: #f0f1f1;
+    padding: 125px 0;
+}
+
+.portfolio__title {}
+
+.portfolio__text {}
+
+.pricing__card {}
+
+.pricing__block-title {}
+
+.pricing__block-num {}
+
+.pricing__block-list {}
+
+.pricing__block-item {}
+
+.pricing__btn {}
