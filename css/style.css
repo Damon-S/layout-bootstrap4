@@ -429,7 +429,7 @@ div[filter]:hover .portfolio__item-text {
 
 .blog {
     padding: 125px 0;
-    text-align: left;
+
     background: #e4fdf9;
 }
 
@@ -452,7 +452,8 @@ div[filter]:hover .portfolio__item-text {
     letter-spacing: 1.25px;
     margin-bottom: 25px;
     margin-top: 60px;
-    display: inline-block;
+    display: block;
+    text-align: left;
 }
 
 .blog__item-title:hover {
@@ -460,7 +461,9 @@ div[filter]:hover .portfolio__item-text {
     text-decoration: none;
 }
 
-.blog__item-content {}
+.blog__item-content {
+    text-align: left;
+}
 
 .blog__item-content span {
     font-family: 'Open Sans Semibold';
@@ -491,4 +494,93 @@ div[filter]:hover .portfolio__item-text {
 
 .right>div:last-child {
     order: 1;
+}
+
+.blog__btn {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 125px;
+    padding: 27px 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.footer {
+    padding: 125px 0;
+    background: url('../images/footer-bg.png') no-repeat top center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.footer__title {
+    margin-bottom: 35px;
+}
+
+.footer__text {
+    margin-bottom: 125px;
+}
+
+.fa-phone-alt,
+.fa-map-marker-alt,
+.fa-envelope {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #3949ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 auto 35px;
+}
+
+.footer__icons-text {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer__form {}
+
+.footer__form-input,
+.footer__form-textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.footer__form-textarea {
+    margin-bottom: 40px;
+    min-height: 320px;
+}
+
+.footer__form-input::placeholder,
+.footer__form-textarea::placeholder {
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer__btn {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    padding: 28px 85px;
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    display: block;
+    text-align: right;
+    cursor: pointer;
 }
