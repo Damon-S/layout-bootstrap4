@@ -543,6 +543,7 @@ div[filter]:hover .portfolio__item-text {
     font-family: 'Open Sans Semibold';
     font-size: 20px;
     letter-spacing: 1px;
+    margin-bottom: 75px;
 }
 
 .footer__form {}
