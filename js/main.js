@@ -24,6 +24,7 @@ $(function () {
         dots: true,
         slidesToShow: 3,
         slidesToScroll: 3,
+        dotsClass: 'dots-style'
     });
 
 });

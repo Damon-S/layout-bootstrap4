@@ -22,12 +22,14 @@ li {
 }
 
 .menu__item {
-    margin-left: 37px;
+    padding: 0 19px;
 }
 
 .menu__link {
     font-family: 'Open Sans Semibold';
     font-size: 20px;
+    color: #212121;
+    letter-spacing: 1px;
 }
 
 .menu__link:hover {
@@ -377,6 +379,7 @@ div[filter]:hover .portfolio__item-text {
 
 .team__social-links {
     display: flex;
+    justify-content: center;
 }
 
 .team__social-links i:nth-child(1) {
@@ -397,4 +400,95 @@ div[filter]:hover .portfolio__item-text {
 
 .team__social-links a:hover i:nth-child(2) {
     color: #fff;
+}
+
+.dots-style {
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.dots-style button {
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border-radius: 50%;
+    background: #00897b;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.dots-style li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.dots-style li.slick-active button {
+    background: #3949ab;
+}
+
+.blog {
+    padding: 125px 0;
+    text-align: left;
+    background: #e4fdf9;
+}
+
+.blog__img {
+    width: 100%;
+}
+
+.blog__title {
+    margin-bottom: 35px;
+}
+
+.blog__text {
+    margin-bottom: 125px;
+}
+
+.blog__item-title {
+    font-family: 'Open Sans Semibold';
+    color: #212121;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.blog__item-title:hover {
+    color: #00897b;
+    text-decoration: none;
+}
+
+.blog__item-content {}
+
+.blog__item-content span {
+    font-family: 'Open Sans Semibold';
+    font-size: 17px;
+    letter-spacing: 0.85px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.blog__item-content i {
+    margin-right: 15px;
+}
+
+.blog__item-text {}
+
+.left>div:first-child {
+    order: 1;
+}
+
+.left>div:last-child {
+    order: 2;
+}
+
+.right>div:first-child {
+    order: 2;
+}
+
+.right>div:last-child {
+    order: 1;
 }
